@@ -26,24 +26,24 @@ public class Main {
         System.out.println();
         System.out.println("Результат выполнения задачи 2:");
 
-        for (int i = 0; i < 3; i++) {
-            if (i == 2) {
+        for (int i = 0; i < integerNumbers.length; i++) {
+            if (i == (integerNumbers.length - 1)) {
                 System.out.println(integerNumbers[i]);
             }
             else {
                 System.out.print(integerNumbers[i] + ", ");
             }
         }
-        for (int i = 0; i < 3; i++) {
-            if (i == 2) {
+        for (int i = 0; i < fractionalNumbers.length; i++) {
+            if (i == (fractionalNumbers.length - 1)) {
                 System.out.println(fractionalNumbers[i]);
             }
             else {
                 System.out.print(fractionalNumbers[i] + ", ");
             }
         }
-        for (int i = 0; i < 5; i++) {
-            if (i == 4) {
+        for (int i = 0; i < symbols.length; i++) {
+            if (i == (symbols.length - 1)) {
                 System.out.println(symbols[i]);
             }
             else {
@@ -58,7 +58,7 @@ public class Main {
         System.out.println();
         System.out.println("Результат выполнения задачи 3:");
 
-        for (int i = 2; 0 <= i; i--) {
+        for (int i = (integerNumbers.length - 1); 0 <= i; i--) {
             if (i == 0) {
                 System.out.println(integerNumbers[i]);
             }
@@ -66,7 +66,7 @@ public class Main {
                 System.out.print(integerNumbers[i] + ", ");
             }
         }
-        for (int i = 2; 0 <= i; i--) {
+        for (int i = (fractionalNumbers.length - 1); 0 <= i; i--) {
             if (i == 0) {
                 System.out.println(fractionalNumbers[i]);
             }
@@ -74,7 +74,7 @@ public class Main {
                 System.out.print(fractionalNumbers[i] + ", ");
             }
         }
-        for (int i = 4; 0 <= i; i--) {
+        for (int i = (symbols.length - 1); 0 <= i; i--) {
             if (i == 0) {
                 System.out.println(symbols[i]);
             }
